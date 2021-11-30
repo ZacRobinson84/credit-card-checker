@@ -55,8 +55,7 @@ const validateCred = array => {
     }
 }
 
-//console.log(validateCred(valid1));
-//console.log(validateCred(invalid1));
+
 // Check a list of credit card numbers and log each invalid number to a new array.
 const findInvalidCards = (nestedArray) => {
     let invalidCards = [];
@@ -70,7 +69,7 @@ const findInvalidCards = (nestedArray) => {
 }
 
 
-//console.log(findInvalidCards(batch));
+
 
 const idInvalidCardCompanies = (nestedArray) => {
     let invalidComp = [];
